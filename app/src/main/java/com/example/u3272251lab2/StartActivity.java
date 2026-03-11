@@ -24,12 +24,21 @@ public class StartActivity extends AppCompatActivity {
             return insets;
         });
 
-        Button button = findViewById(R.id.buttonUIEvent);
-        button.setOnClickListener(new View.OnClickListener() {
+        Button buttonUI = findViewById(R.id.buttonUIEvent);
+        buttonUI.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(StartActivity.this, MainActivity.class);
                 intent.putExtra("message", "Hello World!");
+                startActivity(intent);
+            }
+        });
+
+        Button buttonLocationServices = findViewById(R.id.buttonLocationServicesEvent);
+        buttonLocationServices.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(StartActivity.this, LocationServicesActivity.class);
                 startActivity(intent);
             }
         });
