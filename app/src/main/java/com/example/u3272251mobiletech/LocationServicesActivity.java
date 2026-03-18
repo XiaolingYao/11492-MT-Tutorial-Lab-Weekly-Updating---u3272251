@@ -1,4 +1,4 @@
-package com.example.u3272251lab2;
+package com.example.u3272251mobiletech;
 
 import android.content.pm.PackageManager;
 import android.location.Address;

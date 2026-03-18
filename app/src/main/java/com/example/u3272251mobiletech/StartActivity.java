@@ -1,4 +1,4 @@
-package com.example.u3272251lab2;
+package com.example.u3272251mobiletech;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "u3272251Lab2"
+rootProject.name = "u3272251MobileTech"
 include(":app")
