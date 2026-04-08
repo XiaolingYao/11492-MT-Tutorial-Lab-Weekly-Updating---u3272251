@@ -51,5 +51,32 @@ public class StartActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button buttonSQLite = findViewById(R.id.buttonSQLite);
+        buttonSQLite.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(StartActivity.this, SQLiteActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button buttonAnimation = findViewById(R.id.buttonAnimation);
+        buttonAnimation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(StartActivity.this, AnimationActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button buttonMultimedia = findViewById(R.id.buttonMultimedia);
+        buttonMultimedia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(StartActivity.this, MultimediaActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

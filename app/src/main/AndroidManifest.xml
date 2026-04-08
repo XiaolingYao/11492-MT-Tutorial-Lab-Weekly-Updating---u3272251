@@ -21,6 +21,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.U3272251MobileTech">
         <activity
+            android:name=".SQLiteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MultimediaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnimationActivity"
+            android:exported="false" />
+        <activity
             android:name=".ListViewActivity"
             android:exported="false" />
         <activity
